@@ -5,3 +5,26 @@
   box-shadow:5px 5px 5px 2px lightblue;
 }
 
+
+.stopwatch-style {
+ text-align:center;
+ margin:auto;
+ font-size:50px;
+ width:200px;
+}
+
+#responsive {
+ width:320px;
+ height:72px;
+ margin:auto;
+ margin-top:10px;
+}
+
+.btn-style {
+    list-style-type:none;
+    }
+.btn-style li {
+    margin-top:3.5%;margin-right:2%;
+    float:left;
+    }
+
