@@ -1,3 +1,8 @@
+#bg-img {
+ background-image:url(paper.jpg);
+ background-size:cover;
+}
+
 #style {
   background-color:white;
   border-radius:20px;
