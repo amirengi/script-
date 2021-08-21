@@ -38,14 +38,6 @@ function mul() {
 }	
 
 
-function factorial(num){
-  num = parseInt(num);
-  
-  if(num > 1)
-    return factorial(num-1) * num ;        
-  else
-    return num;
-}
 
 
 const timer = document.getElementById('stopwatch');
