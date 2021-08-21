@@ -37,7 +37,23 @@ function mul() {
   setResult(z);
 }	
 
+function startfactorial() {
+  f=document.getElementById('fact').value;
+  factorial(f);
+  var Result=factorial(f);
+  alert(f+"!"+"="+Result)
+  }
 
+function factorial(num){
+
+  num = parseInt(num);
+  
+  if(num > 1)
+    return factorial(num-1) * num ;        
+  else
+    return num;
+    alert(num);
+}
 
 
 const timer = document.getElementById('stopwatch');
